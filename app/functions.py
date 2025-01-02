@@ -57,6 +57,12 @@ def ask_vector_db(question: str):
     return result
 
 
+api_functions = {
+    "create_review": create_review,
+    "create_order": create_order,
+    "get_pizza_info": get_pizza_info,
+    "ask_vector_db": ask_vector_db,
+}
 
 
 ### Just for initialisation
